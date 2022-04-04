@@ -37,7 +37,7 @@ print(result)
 print('#################################################')
 
 
-p = Pool(5)
+p = Pool(processes=5)
 
 pool_result = p.map(cal_square, num_list)
 
